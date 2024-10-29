@@ -6,13 +6,6 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-export const navItems = [
-  { label: "Home", href: "#" },
-  { label: "Program", href: "#program" },
-  { label: "Service", href: "#service" },
-  { label: "About", href: "#about" },
-  {label: "Community", href: "#commu"}
-];
 
 export const testimonials = [
   {
