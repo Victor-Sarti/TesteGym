@@ -6,56 +6,44 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
-
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Home", href: "#" },
+  { label: "Program", href: "#program" },
+  { label: "Service", href: "#service" },
+  { label: "About", href: "#about" },
+  {label: "Community", href: "#commu"}
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
-    image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    user: "Sarti",
+    company: "São Paulo",
+    text: "Estou extremamente satisfeito com os serviços prestados. A equipe foi ágil, profissional e entregou resultados além das minhas expectativas.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
-    image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    user: "Laura Cordeiro",
+    company: " Diadema",
+    text: "Não poderia estar mais feliz com o resultado do meu Iphone, ele ficou Perfeito!! .",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
-    image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    user: "Bruno Miguel",
+    company: "São Paulo",
+    text: "Levar os Celulares dos meus filho para esta empresa foi um prazer. Sua atenção aos detalhes e compromisso com a excelência são louváveis. Eu os recomendo fortemente para quem procura um serviço de primeira linha.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    user: "José Lucas",
+    company: "São Paulo",
+    text: "Estou impressionado com o nível de profissionalismo e dedicação demonstrado pela equipa. Eles foram capazes de superar nossas expectativas e entregar excelentes resultados.!",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    user: "Gabriel Nascimento",
+    company: "São Paulo",
+    text: "Simplismente amei a qualidade e o atendimento, com certeza voltarei para realizar novas compras, Adorei meus novos Acessorios.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    user: "Nicolly Galluci",
+    company: "São Paulo",
+    text: "Trabalho Perfeito, Atendimento ÓTIMO e otima localização pertin da estação.",
   },
 ];
 
@@ -100,25 +88,37 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Itech Place",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Tem serviços de reparo  · Oferece entrega no mesmo dia",
   },
   {
-    title: "Review code without worry",
+    title: "Endereço",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      " Av. Imperatriz Leopoldina, 507 - Vila Leopoldina, São Paulo - SP, 05305-010",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Telefone",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "(11) 97624-7505",
   },
   {
-    title: "Share work in minutes",
+    title: "Horário de Funcionamento",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Segunda a Sexta: 09:00 - 19:30",
+      
   },
+  {
+    description:
+      "Sábado: 09:00 - 15:00 ",
+      
+  },
+  {
+    description:
+      "Domingo: Fechado  ",
+      
+  },
+
 ];
 
 export const pricingOptions = [
@@ -155,19 +155,16 @@ export const pricingOptions = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Quem Somos" },
+  { href: "#rec", text: "Recursos" },
+  { href: "#dep", text: "Depoimentos" },
+  { href: "#loc", text: "Localização" },
+  
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  {  href: "https://api.whatsapp.com/send/?phone=5511976247505&text&type=phone_number&app_absent=0wa.me/5511976247505", text: "WhatsAapp" },
+  {  href: "https://www.instagram.com/itechplace?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", text: "Instagram" },
 ];
 
 export const communityLinks = [
