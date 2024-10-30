@@ -33,7 +33,7 @@ const ManSection = () => {
             {/*IMAGEM COM O CIRCULO*/}
 
             <div className="relative flex items-center justify-center  ">
-            <div class="absolute ml-96 mt-60  w-60 h-60 rounded-full bg-gradient-to-br from-orange-400 via-orange-300 to-transparent opacity-5 blur-md"></div>
+            <div class="absolute ml-96 mt-60  w-96 h-96 rounded-full bg-gradient-to-br from-orange-400 via-orange-300 to-transparent opacity-5 blur-md"></div>
 
                 <div className="absolute w-96 h-80 border-30 opacity-10 border-customDarkOrange rounded-full"> </div>
                 <img className="relative z-10 w-96 h-96" src={man} alt="" />
@@ -42,7 +42,7 @@ const ManSection = () => {
 
              {/*TEXTO EMBAIXO DA IMAGEM*/}
 
-             <div className="absolute mt-72 ml-60 text-8xl font-bold text-customGray opacity-30 tracking-widest">
+             <div className="absolute mt-72 ml-56 text-9xl font-bold text-customGray opacity-30 ">
         FITNESS
     </div>
             
