@@ -1,7 +1,7 @@
 import IconStrength from '../assets/strength.png';
 import IconHeart from '../assets/heart.png';
 import IconRun from '../assets/run.png';
-import IconCart from '../assets/cart.png';
+import IconBasket from '../assets/basket.png';
 
 import arrowR from '../assets/arrowR.svg';
 import arrowL from '../assets/arrowL.svg';
@@ -68,7 +68,7 @@ const ProgamSection = () => {
                 {/* Box de "Fat" */}
                 <div className="bg-customDarkGray p-6 rounded-lg text-white w-64 shadow-lg hover:border hover:border-customOrange transition duration-300">
                     <div className="bg-customOrange p-2 rounded-md inline-block">
-                        <img src={IconCart} className="w-6 h-6 text-white" />
+                        <img src={IconBasket} className="w-6 h-6 text-white" />
                     </div>
                     <h3 className="text-lg font-semibold mt-4">Fat lose</h3>
                     <p className="text-sm text-gray-400 mt-2">
