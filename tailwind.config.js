@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    borderWidth: {
+      '30': '30px',
+    },
     extend: {
       colors: {
         customBlack: "#111317",
