@@ -5,7 +5,7 @@ const Navbar = () => {
             <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
                 <div className="container px-4 mx-auto relative text-sm">
 
-                    <div className="flex justify-around items-center">
+                    <div className="flex pl-40 gap-36 items-center">
                         <div className=" flex items-center flex-shrink-0">
                             <img className="h-30 w-30 mr-10" src={logo} alt="logo" />
                         </div>
