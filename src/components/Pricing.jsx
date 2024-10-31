@@ -17,10 +17,10 @@ const Pricing = () => {
             </div>
             
             {/* containers*/}
-            <div className="flex flex-wrap mt-10 justify-center">
+            <div className="flex flex-wrap mt-10 justify-center ">
                 {pricingOptions.map((option, index) => (
                     <div key={index} className="w-full  sm:w-1/2 lg:w-1/4 p-2">
-                        <div className="p-6 bg-cus rounded-lg bg-customDarkGray shadow-lg flex gap-15 flex-col justify-between h-full text-center">
+                        <div className="p-6 bg-cus rounded-lg bg-customDarkGray shadow-lg flex gap-15 flex-col justify-between h-full text-center hover:scale-105  hover:border-white transition duration-300">
                             <div>
                                 <p className="text-xl font-semibold text-white mb-2">{option.title}</p>
                                 <p className="text-2xl font-bold text-white mb-2">{option.price}</p>
@@ -34,7 +34,7 @@ const Pricing = () => {
                                     ))}
                                 </ul>
                             </div>
-                            <a href="#" className="inline-block w-full py-2 mt-4 text-base font-semibold text-white border border-customDarkOrange rounded transition duration-200 hover:bg-customDarkOrange hover:text-black">
+                            <a href="#" className="inline-block w-full py-2 mt-4 text-base font-semibold text-white border border-customDarkOrange rounded transition duration-200 hover:bg-customDarkOrange hover:text-customBlack">
                                 Join Now
                             </a>
                         </div>

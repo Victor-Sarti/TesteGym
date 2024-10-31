@@ -9,7 +9,7 @@ const Footer = () => {
             {/* Config geral*/}
             <div className="flex flex-col lg:flex-row justify-center items-start lg:items-center gap-10">
                 {/* Efeito Brush*/}
-            <div class="absolute  left-60  w-60 h-60 rounded-full bg-gradient-to-br from-orange-400 via-orange-300 to-transparent opacity-5 blur-md"></div>
+            <div class="absolute  left-60  mb-32 w-60 h-60 rounded-full bg-gradient-to-br from-orange-400 via-orange-300 to-transparent opacity-5 blur-md"></div>
 
 
                 {/* Logo*/}
@@ -34,7 +34,7 @@ const Footer = () => {
                         <ul className="space-y-2">
                             {resourcesLinks.map((link, index) => (
                                 <li key={index}>
-                                    <a className="text-gray-400 hover:text-customOrange" href={link.href}>
+                                    <a className="text-customWhite hover:text-customOrange" href={link.href}>
                                         {link.text}
                                     </a>
                                 </li>
@@ -48,7 +48,7 @@ const Footer = () => {
                         <ul className="space-y-2">
                             {platformLinks.map((link, index) => (
                                 <li key={index}>
-                                    <a className="text-gray-400 hover:text-customOrange" href={link.href}>
+                                    <a className="text-customWhite hover:text-customOrange" href={link.href}>
                                         {link.text}
                                     </a>
                                 </li>
@@ -58,14 +58,12 @@ const Footer = () => {
 
                     {/* Coluna Contact */}            
                     
-                    <div class="absolute  right-80  w-60 h-60 rounded-full bg-gradient-to-br from-orange-400 via-orange-300 to-transparent opacity-5 blur-md"></div>
-
                     <div className="text-center lg:text-left">
                         <h3 className="text-lg font-semibold mb-4">Contact</h3>
                         <ul className="space-y-2">
                             {communityLinks.map((link, index) => (
                                 <li key={index}>
-                                    <a className="text-gray-400 hover:text-customOrange" href={link.href}>
+                                    <a className="text-customWhite hover:text-customOrange" href={link.href}>
                                         {link.text}
                                     </a>
                                 </li>
