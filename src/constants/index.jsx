@@ -79,41 +79,6 @@ export const features = [
   },
 ];
 
-export const checklistItems = [
-  {
-    title: "Itech Place",
-    description:
-      "Tem serviços de reparo  · Oferece entrega no mesmo dia",
-  },
-  {
-    title: "Endereço",
-    description:
-      " Av. Imperatriz Leopoldina, 507 - Vila Leopoldina, São Paulo - SP, 05305-010",
-  },
-  {
-    title: "Telefone",
-    description:
-      "(11) 97624-7505",
-  },
-  {
-    title: "Horário de Funcionamento",
-    description:
-      "Segunda a Sexta: 09:00 - 19:30",
-      
-  },
-  {
-    description:
-      "Sábado: 09:00 - 15:00 ",
-      
-  },
-  {
-    description:
-      "Domingo: Fechado  ",
-      
-  },
-
-];
-
 export const pricingOptions = [
   {
     title: "Basic Plan",
