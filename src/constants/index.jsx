@@ -7,38 +7,6 @@ import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
 
-export const testimonials = [
-  {
-    user: "Sarti",
-    company: "São Paulo",
-    text: "Estou extremamente satisfeito com os serviços prestados. A equipe foi ágil, profissional e entregou resultados além das minhas expectativas.",
-  },
-  {
-    user: "Laura Cordeiro",
-    company: " Diadema",
-    text: "Não poderia estar mais feliz com o resultado do meu Iphone, ele ficou Perfeito!! .",
-  },
-  {
-    user: "Bruno Miguel",
-    company: "São Paulo",
-    text: "Levar os Celulares dos meus filho para esta empresa foi um prazer. Sua atenção aos detalhes e compromisso com a excelência são louváveis. Eu os recomendo fortemente para quem procura um serviço de primeira linha.",
-  },
-  {
-    user: "José Lucas",
-    company: "São Paulo",
-    text: "Estou impressionado com o nível de profissionalismo e dedicação demonstrado pela equipa. Eles foram capazes de superar nossas expectativas e entregar excelentes resultados.!",
-  },
-  {
-    user: "Gabriel Nascimento",
-    company: "São Paulo",
-    text: "Simplismente amei a qualidade e o atendimento, com certeza voltarei para realizar novas compras, Adorei meus novos Acessorios.",
-  },
-  {
-    user: "Nicolly Galluci",
-    company: "São Paulo",
-    text: "Trabalho Perfeito, Atendimento ÓTIMO e otima localização pertin da estação.",
-  },
-];
 
 export const features = [
   {
