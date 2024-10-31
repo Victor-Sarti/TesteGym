@@ -116,33 +116,33 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Basic Plan",
+    price: "$16",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Smart workout plan",
+      "At home workouts",
+      
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Weekly Plan",
+    price: "$25",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "PRO Gyms",
+      "Smart workout plan",
+      "At home workouts",
+      
     ],
   },
   {
-    title: "Enterprise",
-    price: "$200",
+    title: "Monthly Plan",
+    price: "$45",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "ELITE Gyms & Classes",
+      "PRO Gyms",
+      "Smart workout plan",
+      "At home workout",
+      "Personal Training",
     ],
   },
 ];
