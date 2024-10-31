@@ -148,22 +148,22 @@ export const pricingOptions = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Quem Somos" },
-  { href: "#rec", text: "Recursos" },
-  { href: "#dep", text: "Depoimentos" },
-  { href: "#loc", text: "Localização" },
+  { href: "#", text: "Bunnies" },
+  { href: "#rec", text: "Franchise" },
+  { href: "#dep", text: "Partership" },
+  { href: "#loc", text: "Network" },
   
 ];
 
 export const platformLinks = [
-  {  href: "https://api.whatsapp.com/send/?phone=5511976247505&text&type=phone_number&app_absent=0wa.me/5511976247505", text: "WhatsAapp" },
-  {  href: "https://www.instagram.com/itechplace?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", text: "Instagram" },
+  {  href: "", text: "Blogs" },
+  {  href: "", text: "Security" },
+  {  href: "", text: "Careers" },
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Contact Us" },
+  { href: "#", text: "Privacy Policy" },
+  { href: "#", text: "Terms & Conditions" },
+  { href: "#", text: "BMI Calculator" },
 ];
