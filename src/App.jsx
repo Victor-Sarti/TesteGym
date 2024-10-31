@@ -1,5 +1,6 @@
 
 import Class from "./components/ClassSection";
+import Feedback from "./components/Feedback";
 import ManSection from "./components/ManSection";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
@@ -15,6 +16,7 @@ const App = () => {
   <Class/>
   <TrainerSection/>
   <Pricing/>
+  <Feedback/>
   </> 
   );
 }
