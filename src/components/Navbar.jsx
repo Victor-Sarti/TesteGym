@@ -11,21 +11,26 @@ const Navbar = () => {
                         </div>
                         <ul className=" hidden lg:flex ml-14 space-x-12 ">
                             <nav className="flex space-x-10">
-                                <a href="#" className="inline-block hover:border-b-2 hover:border-orange-500 transition-all duration-200">
+
+                                <a href="#" className="inline-block relative text-white after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full">
                                     Home
                                 </a>
-                                <a href="#" className="inline-block hover:border-b-2 hover:border-orange-500 transition-all duration-200">
+                                <a href="#" className="inline-block relative text-white after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full">
                                     Program
                                 </a>
-                                <a href="#" className="inline-block hover:border-b-2 hover:border-orange-500 transition-all duration-200">
+                                <a href="#" className="inline-block relative text-white after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full">
                                     Service
                                 </a>
-                                <a href="#" className="inline-block hover:border-b-2 hover:border-orange-500 transition-all duration-200">
+                                <a href="#" className="inline-block relative text-white after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full">
                                     About
                                 </a>
-                                <a href="#" className="inline-block hover:border-b-2 hover:border-orange-500 transition-all duration-200">
+                                <a href="#" className="inline-block relative text-white after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all after:duration-300 hover:after:w-full">
                                     Community
                                 </a>
+
+
+
+
                             </nav>
                         </ul>
                         <div className=" hidden lg:flex justify-center  pl-20 items-center">
