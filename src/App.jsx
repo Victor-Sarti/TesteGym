@@ -1,6 +1,7 @@
 
 import Class from "./components/ClassSection";
 import Feedback from "./components/Feedback";
+import Footer from "./components/Footer";
 import ManSection from "./components/ManSection";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
@@ -17,6 +18,7 @@ const App = () => {
   <TrainerSection/>
   <Pricing/>
   <Feedback/>
+  <Footer/>
   </> 
   );
 }
