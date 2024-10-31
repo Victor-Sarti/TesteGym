@@ -11,7 +11,7 @@ const ProgamSection = () => {
         <>
             <div className="flex items-center justify-between pl-56 pt-24 ">
                 <h1 className="text-2xl text-white">EXPLORE OUR PROGRAM</h1>
-                <div className=' flex mr-80 space-x-4'>
+                <div className=' flex mr-80 space-x-4'> 
                     {/* Botão das setas */}
                     <button className="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center cursor-pointer hover:bg-customDarkOrange hover:bg-opacity-30 transition">
                         <img className="w-8 h-8" src={arrowL} alt="Arrow Left" />
@@ -24,6 +24,9 @@ const ProgamSection = () => {
 
             {/* Boxes de Programas */}
             <div className="flex  gap-6 px-56 py-8">
+            <div class="absolute  mt-64   w-96 h-96 rounded-full bg-gradient-to-br from-orange-400 via-orange-300 to-transparent opacity-5 blur-md"></div>
+
+
                 {/* Box de "Strength" */}
                 <div className="bg-customDarkGray p-6 rounded-lg text-white w-64 shadow-lg hover:border hover:border-white transition duration-300">
                     <div className="bg-customOrange p-2 rounded-md inline-block">

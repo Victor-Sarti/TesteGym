@@ -8,6 +8,7 @@ const TrainerSection = () => {
         <>
                {/* Titulo*/}
             <div className=" flex justify-center">
+
                 <div className=" flex-col flex gap-7 items-center">
                     <h1 className=" text-4xl text-customWhite font-semibold"> WHY JOIN US ?</h1>
                     <p className=" text-customWhite text-x">Our diverse membership base creates a frindly and supportive <br />
@@ -16,7 +17,7 @@ const TrainerSection = () => {
                 </div>
             </div>
                {/* Container e imagem fundo */}
-            <div className="relative flex justify-center mt-20">
+            <div className="relative flex justify-center m-14">
                 <img className="w-3/4 h-3/4" src={IconJoin} alt="Training Image" />
 
                 {/* Container  */}
