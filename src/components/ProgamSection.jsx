@@ -9,27 +9,25 @@ import arrowL from '../assets/arrowL.svg';
 const ProgamSection = () => {
     return (
         <>
-            <div className="flex items-center justify-between pl-56 pt-24 ">
-                <h1 className="text-2xl text-white">EXPLORE OUR PROGRAM</h1>
-                <div className=' flex mr-80 space-x-4'>
-
+            <div className="flex flex-col sm:flex-row items-center justify-between px-4 sm:px-16 lg:px-56 pt-8 sm:pt-16">
+                <h1 className="text-lg sm:text-2xl text-white text-center sm:text-left">EXPLORE OUR PROGRAM</h1>
+                <div className="flex mt-4 sm:mt-0 space-x-4">
                     {/* Botão das setas */}
-                    <button className="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center cursor-pointer hover:bg-customDarkOrange hover:bg-opacity-30 transition">
-                        <img className="w-8 h-8" src={arrowL} alt="Arrow Left" />
+                    <button className="w-10 h-10 sm:w-12 sm:h-12 border-2 border-white rounded-full flex items-center justify-center cursor-pointer hover:bg-customDarkOrange hover:bg-opacity-30 transition">
+                        <img className="w-6 h-6 sm:w-8 sm:h-8" src={arrowL} alt="Arrow Left" />
                     </button>
-                    <button className="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center cursor-pointer hover:bg-customDarkOrange hover:bg-opacity-30 transition">
-                        <img className="w-8 h-8" src={arrowR} alt="Arrow Right" />
+                    <button className="w-10 h-10 sm:w-12 sm:h-12 border-2 border-white rounded-full flex items-center justify-center cursor-pointer hover:bg-customDarkOrange hover:bg-opacity-30 transition">
+                        <img className="w-6 h-6 sm:w-8 sm:h-8" src={arrowR} alt="Arrow Right" />
                     </button>
                 </div>
             </div>
 
             {/* all Boxes */}
-            <div className="flex  gap-6 px-56 py-8">
-                <div class="absolute  mt-64   w-96 h-96 rounded-full bg-gradient-to-br from-orange-400 via-orange-300 to-transparent opacity-5 blur-md"></div>
-
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4 sm:px-16 lg:px-56 py-8">
+                <div className="absolute mt-64 w-96 h-96 rounded-full bg-gradient-to-br from-orange-400 via-orange-300 to-transparent opacity-5 blur-md"></div>
 
                 {/* Box de "Strength" */}
-                <div className="bg-customDarkGray p-6 rounded-lg text-white w-64 shadow-lg hover:border  transform hover:scale-105  hover:border-white transition duration-300">
+                <div className="bg-customDarkGray p-6 rounded-lg text-white shadow-lg hover:border transform hover:scale-105 hover:border-white transition duration-300">
                     <div className="bg-customOrange p-2 rounded-md inline-block">
                         <img src={IconStrength} className="w-6 h-6 text-white" />
                     </div>
@@ -43,11 +41,11 @@ const ProgamSection = () => {
                 </div>
 
                 {/* Box de "Heart" */}
-                <div className="bg-customDarkGray p-6 rounded-lg text-white w-64 shadow-lg hover:border transform hover:scale-105  hover:border-white transition duration-300 ">
+                <div className="bg-customDarkGray p-6 rounded-lg text-white shadow-lg hover:border transform hover:scale-105 hover:border-white transition duration-300">
                     <div className="bg-customOrange p-2 rounded-md inline-block">
                         <img src={IconHeart} className="w-6 h-6 text-white" />
                     </div>
-                    <h3 className="text-lg font-semibold mt-4">Pysical Fitness</h3>
+                    <h3 className="text-lg font-semibold mt-4">Physical Fitness</h3>
                     <p className="text-sm text-gray-400 mt-2">
                         Embrace the essence of Hearts as we delve into its various dimensions: physical, mental, and emotional.
                     </p>
@@ -57,11 +55,11 @@ const ProgamSection = () => {
                 </div>
 
                 {/* Box de "Fat" */}
-                <div className="bg-customDarkGray p-6 rounded-lg text-white w-64 shadow-lg hover:border transform hover:scale-105  hover:border-white transition duration-300 ">
+                <div className="bg-customDarkGray p-6 rounded-lg text-white shadow-lg hover:border transform hover:scale-105 hover:border-white transition duration-300">
                     <div className="bg-customOrange p-2 rounded-md inline-block">
                         <img src={IconRun} className="w-6 h-6 text-white" />
                     </div>
-                    <h3 className="text-lg font-semibold mt-4">Fat lose</h3>
+                    <h3 className="text-lg font-semibold mt-4">Fat Loss</h3>
                     <p className="text-sm text-gray-400 mt-2">
                         Embrace the essence of Fat as we delve into its various dimensions: physical, mental, and emotional.
                     </p>
@@ -69,8 +67,9 @@ const ProgamSection = () => {
                         Join Now →
                     </a>
                 </div>
+
                 {/* Box de "Weight" */}
-                <div className="bg-customDarkGray p-6 rounded-lg text-white w-64 shadow-lg hover:border transform hover:scale-105  hover:border-white transition duration-300 ">
+                <div className="bg-customDarkGray p-6 rounded-lg text-white shadow-lg hover:border transform hover:scale-105 hover:border-white transition duration-300">
                     <div className="bg-customOrange p-2 rounded-md inline-block">
                         <img src={IconBasket} className="w-6 h-6 text-white" />
                     </div>
@@ -82,11 +81,9 @@ const ProgamSection = () => {
                         Join Now →
                     </a>
                 </div>
-
-
             </div>
         </>
     );
-}
+};
 
 export default ProgamSection;
